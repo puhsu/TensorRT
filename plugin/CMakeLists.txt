@@ -30,6 +30,7 @@ set(PLUGIN_SOURCES)
 set(PLUGIN_CU_SOURCES)
 
 set(PLUGIN_LISTS
+    seluuuPlugin
     batchedNMSPlugin
     batchTilePlugin
     coordConvACPlugin

@@ -28,6 +28,7 @@ set(OPENSOURCE_SAMPLES_LIST
     sampleMovieLensMPS
     sampleNMT
     sampleOnnxMNIST
+    sampleOnnxMNISTselu
     samplePlugin
     sampleReformatFreeIO
     sampleSSD

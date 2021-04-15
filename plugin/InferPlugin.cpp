@@ -51,6 +51,7 @@ using namespace nvinfer1::plugin;
 #include "regionPlugin.h"
 #include "reorgPlugin.h"
 #include "resizeNearestPlugin.h"
+#include "seluuuPlugin.h"
 #include "specialSlicePlugin.h"
 #include "split.h"
 
@@ -188,6 +189,7 @@ extern "C"
         initializePlugin<nvinfer1::plugin::RegionPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::ReorgPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::ResizeNearestPluginCreator>(logger, libNamespace);
+        initializePlugin<nvinfer1::plugin::SeluuuPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::RPROIPluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::SpecialSlicePluginCreator>(logger, libNamespace);
         initializePlugin<nvinfer1::plugin::SplitPluginCreator>(logger, libNamespace);
